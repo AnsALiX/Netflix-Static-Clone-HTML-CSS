@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    
+}
+.main {
+    background-image: url("assets/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+ .main .box{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.56;
+    position: absolute;
+    top: 0;
+}
+.main nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    position: relative;
+    z-index: 10;
+    width: 180px;
+    margin-top: 12px;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    padding: 0.45rem 1rem;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.first-part{
+    position: relative;
+    z-index: 10;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.first-part .a{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+}
+.first-part .b{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+}
+.first-part .c{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.input input{
+    padding: 19px 0px 19px 10px;
+    padding-right: 150px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.input button{
+    padding: 13px 35px 20px 20px;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+.separation{
+    height: 1vh;
+    width: 100%;
+    background-color:#727272;
+}
+section h2{
+
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 32px;
+}
+.container{
+    display: flex;
+    padding: 30px;
+}
+.items{
+    margin: auto;
+    width: 197px;
+    height: 276px;
+}
+.items img{
+    border-radius: 0.65rem;
+}
+.item{
+    margin: auto;
+    width: 309.75px;
+    height: 284px;
+    border-radius: 1rem;
+    color: white;
+    background-color: #0b004c99;
+}
+.item h3{
+    padding: 15px 25px 12px 22px;
+    font-weight: bolder;
+}
+.items-2 h3:nth-child(1){
+    margin-bottom: -27px;
+
+}
+.item p{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.faq-item{
+    height: 6vh;
+    width: 80vw;
+    background-color: rgba(169, 169, 169, 0.548);
+    color: white;
+    padding: 5px;
+    margin: 5px 0px;
+
+}
+.f{
+    margin-bottom: 15px;
+}
+.faq-item p{
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+.faq-item img{
+    position: relative;
+    left: 1234px;
+    bottom: 30px
+}
+.last-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.last-email p{
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last button{
+    padding: 13px 35px 20px 20px;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 6px;
+}
+.last input{
+    padding: 19px 0px 19px 10px;
+    padding-right: 150px;
+    font-weight: 400;
+    font-size: 16px;
+}
